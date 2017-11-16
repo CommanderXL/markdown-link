@@ -1,14 +1,14 @@
 {
-  "name": "markdown-link",
+  "name": "markdown-it-anchor-cube",
   "version": "0.0.1",
-  "description": "add link to markdown",
+  "description": "add link to cube doc title",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CommanderXL/markdown-link.git"
+    "url": "git+https://github.com/CommanderXL/markdown-it-anchor-cube.git"
   },
   "keywords": [
     "markdown",
@@ -17,7 +17,15 @@
   "author": "XRene",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CommanderXL/markdown-link/issues"
+    "url": "https://github.com/CommanderXL/markdown-it-anchor-cube/issues"
   },
-  "homepage": "https://github.com/CommanderXL/markdown-link#readme"
+  "homepage": "https://github.com/CommanderXL/markdown-it-anchor-cube#readme",
+  "dependencies": {
+    "string": "^3.3.3"
+  },
+  "devDependencies": {
+    "markdown-it": "^8.4.0",
+    "markdown-it-attrs": "^1.2.0",
+    "standard": "^10.0.3"
+  }
 }
